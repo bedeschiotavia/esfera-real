@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap');
+
+:root {
+    --bs-font-sans-serif: Poppins, Helvetica,  sans-serif;
+    --bs-primary: #e56e26;
+    --bs-dark: #222;
+    --bs-gray: #909090;
+}
+
+
+/* Buttons */
+
+.btn-primary {
+    color: #fff;
+    background-color: #e56e26;
+    border-color: #e56e26;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #222;
+    border-color: #222;
+}
+
+/* Navbar */
+
+.nav-item a{
+    color: #222 !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+
+.nav-link:hover{
+    color: #e56e26 !important;
+}
+
+.nav-item .active {
+    color: #e56e26 !important;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-menu a{
+    color: #909090 !important;
+    font-weight: 500 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #fff;
+}
+
+.dropdown-menu a:hover {
+    color: #e56e26 !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.flaticon-menu:hover {
+    color:#e56e26;
+}
+
+
